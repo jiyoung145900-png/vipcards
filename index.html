@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP 카드 관리 시스템</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>VIP 카드 관리 시스템</h1>
+
+    <div id="card-container">
+        <div class="card-wrapper" id="card-vip1">
+            <div class="vip-card" id="vip1-image-area">
+                <img src="https://i.ibb.co/L95H6wX/vip1-base.png" alt="VIP1 Card Base" class="card-base-img">
+                <div class="card-content">
+                    <div class="card-text card-name" id="vip1-name-display">이름: [이름]</div>
+                    <div class="card-text card-number" id="vip1-number-display">카드번호: [번호]</div>
+                    <div class="card-status active" id="vip1-status-display">활성</div>
+                </div>
+            </div>
+            <div class="card-controls">
+                <h2>VIP 1 카드</h2>
+                <label for="vip1-name-input">이름:</label>
+                <input type="text" id="vip1-name-input" placeholder="이름을 입력하세요">
+                <label for="vip1-number-input">카드 번호:</label>
+                <input type="text" id="vip1-number-input" placeholder="카드 번호를 입력하세요">
+                <button class="toggle-status-btn" data-card="vip1">활성/비활성 토글</button>
+                <button class="download-btn" data-card="vip1">카드 다운로드</button>
+            </div>
+        </div>
+
+        <div class="card-wrapper" id="card-vip2">
+            <div class="vip-card" id="vip2-image-area">
+                <img src="https://i.ibb.co/3s6K8fC/vip2-base.png" alt="VIP2 Card Base" class="card-base-img">
+                <div class="card-content">
+                    <div class="card-text card-name" id="vip2-name-display">이름: [이름]</div>
+                    <div class="card-text card-number" id="vip2-number-display">카드번호: [번호]</div>
+                    <div class="card-status active" id="vip2-status-display">활성</div>
+                </div>
+            </div>
+            <div class="card-controls">
+                <h2>VIP 2 카드</h2>
+                <label for="vip2-name-input">이름:</label>
+                <input type="text" id="vip2-name-input" placeholder="이름을 입력하세요">
+                <label for="vip2-number-input">카드 번호:</label>
+                <input type="text" id="vip2-number-input" placeholder="카드 번호를 입력하세요">
+                <button class="toggle-status-btn" data-card="vip2">활성/비활성 토글</button>
+                <button class="download-btn" data-card="vip2">카드 다운로드</button>
+            </div>
+        </div>
+
+        <div class="card-wrapper" id="card-vip3">
+            <div class="vip-card" id="vip3-image-area">
+                <img src="https://i.ibb.co/gTLWv0z/vip3-base.png" alt="VIP3 Card Base" class="card-base-img">
+                <div class="card-content">
+                    <div class="card-text card-name" id="vip3-name-display">이름: [이름]</div>
+                    <div class="card-text card-number" id="vip3-number-display">카드번호: [번호]</div>
+                    <div class="card-status active" id="vip3-status-display">활성</div>
+                </div>
+            </div>
+            <div class="card-controls">
+                <h2>VIP 3 카드</h2>
+                <label for="vip3-name-input">이름:</label>
+                <input type="text" id="vip3-name-input" placeholder="이름을 입력하세요">
+                <label for="vip3-number-input">카드 번호:</label>
+                <input type="text" id="vip3-number-input" placeholder="카드 번호를 입력하세요">
+                <button class="toggle-status-btn" data-card="vip3">활성/비활성 토글</button>
+                <button class="download-btn" data-card="vip3">카드 다운로드</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
