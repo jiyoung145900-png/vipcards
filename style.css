@@ -67,10 +67,35 @@ h1 {
 }
 
 .card-text {
+    position: absolute; /* 이 속성을 추가하여 개별 위치 조정 가능하게 만듦 */
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 50px;
-    white-space: nowrap; /* 텍스트가 줄바꿈되지 않도록 */
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    z-index: 2;
+}
+
+/* 1. 이름 위치 개별 조정 */
+.card-name {
+    /* VIP 카드 디자인에 맞춰 top, left, right, bottom 중 두 개를 선택하여 위치를 정합니다. */
+    top: 200px;  /* 위에서 200px 떨어진 위치 */
+    left: 180px; /* 왼쪽에서 180px 떨어진 위치 */
+}
+
+/* 2. 카드 번호 위치 개별 조정 */
+.card-number {
+    /* 이름과는 독립적으로 위치를 정합니다. */
+    top: 240px;  /* 위에서 240px 떨어진 위치 */
+    left: 180px; /* 왼쪽에서 180px 떨어진 위치 */
+}
+
+/* 3. 활성/비활성 상태 표시 위치 조정 (이전과 동일) */
+.card-status {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /* ... (나머지 스타일) */
 }
 
 .card-number {
