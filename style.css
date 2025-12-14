@@ -89,7 +89,7 @@ h1 {
 /* 카드 번호 위치 (사용자 설정 반영) */
 .card-number {
     top: 260px;  
-    left: 150px; 
+    left: 120px; 
     font-size: 20px;
 }
 
