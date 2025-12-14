@@ -60,7 +60,7 @@ h1 {
     transform: translateX(-50%); /* 정확한 중앙 정렬 */
     
     color: #ffd700; /* 색상 지정 */
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     text-align: center;
     padding: 5px 10px;
