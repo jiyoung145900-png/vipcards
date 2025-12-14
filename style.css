@@ -59,7 +59,7 @@ h1 {
     flex-direction: column;
     justify-content: center; /* 세로 중앙 정렬 */
     align-items: flex-start; /* 가로 좌측 정렬 */
-    padding-left: 180px; /* 이미지 영역을 피해서 텍스트 시작 */
+    padding-left: 150px; /* 이미지 영역을 피해서 텍스트 시작 */
     box-sizing: border-box;
     z-index: 2; /* 이미지 위에 텍스트가 오도록 */
     color: #fff; /* 텍스트 색상 */
@@ -69,7 +69,7 @@ h1 {
 .card-text {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     white-space: nowrap; /* 텍스트가 줄바꿈되지 않도록 */
 }
 
@@ -79,8 +79,8 @@ h1 {
 
 .card-status {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 60px;
+    right: 10px;
     font-size: 22px;
     font-weight: bold;
     padding: 5px 15px;
