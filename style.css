@@ -55,7 +55,7 @@ h1 {
     z-index: 2;
     
     /* 하단 중앙 배치 (기본 설정) */
-    bottom: 50px; 
+    bottom: 20px; 
     left: 50%; 
     transform: translateX(-50%); /* 정확한 중앙 정렬 */
     
