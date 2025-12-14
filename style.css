@@ -82,13 +82,13 @@ h1 {
 
 /* 이름 위치 (사용자 설정 반영) */
 .card-name {
-    top: 230px;  
-    left: 150px; 
+    top: 220px;  
+    left: 120px; 
 }
 
 /* 카드 번호 위치 (사용자 설정 반영) */
 .card-number {
-    top: 270px;  
+    top: 260px;  
     left: 150px; 
     font-size: 20px;
 }
